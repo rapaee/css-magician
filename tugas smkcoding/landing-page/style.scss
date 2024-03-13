@@ -1,0 +1,563 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  a {
+    text-decoration: none;
+  }
+  i {
+    color: white;
+  }
+  .keranjang:hover {
+    background-color: orange;
+  }
+  .keranjangg:hover {
+    background-color: orange;
+  }
+}
+main {
+  background-color: #f6ebda;
+  height: 1200px;
+}
+.container {
+  img {
+    width: 10%;
+    margin-top: 25px;
+    margin-left: 80px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 520px;
+    margin-top: -35px;
+  }
+  li {
+    display: inline;
+    font-size: 20px;
+  }
+  li .active {
+    color: gold;
+  }
+  li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+  }
+  form {
+    margin-left: -30px;
+  }
+  input {
+    position: absolute;
+    z-index: 5;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    margin-left: 1030px;
+    margin-top: -25px;
+  }
+  form img {
+    width: 20px;
+  }
+  .bg-right {
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 210px;
+  }
+  .bg-right img {
+    width: 80%; /* Sesuaikan lebar container sesuai kebutuhan */
+    height: 400px; /* Sesuaikan tinggi container sesuai kebutuhan */
+  }
+  .search-input {
+    background-image: url("./icon/search-removebg-preview.png"); /* Gantilah path dengan lokasi gambar Anda */
+    background-size: 16px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    background-repeat: no-repeat;
+    background-position: 10px center; /* Sesuaikan posisi gambar sesuai kebutuhan */
+    padding-left: 30px; /* Sesuaikan padding kiri untuk membuat ruang untuk gambar */
+  }
+  .shopping {
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: -23px;
+  }
+}
+.content-left {
+  h2 {
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 80px;
+  }
+  span {
+    color: orange;
+  }
+  br {
+    margin-top: -5px;
+  }
+  .txt {
+    margin-left: 80px;
+    margin-top: 60px;
+  }
+  .txt2 {
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: #2f2105;
+    padding: 12px;
+    width: 120px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+  }
+  .txt2:hover {
+    background-color: #5a4303;
+    transition: all 0.3;
+  }
+  .txt3 {
+    color: orange;
+    margin-left: 260px;
+    margin-top: -30px;
+  }
+  .txt3:hover {
+    color: orangered;
+    transition: all 0.3;
+  }
+}
+.content-right {
+  .bg-coffe {
+    position: absolute;
+    margin-left: 880px;
+    margin-top: -300px;
+    background-color: #2f2105;
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .bg-coffe img {
+    margin-left: 10px;
+    margin-top: -50px;
+  }
+  .text-container {
+    position: absolute;
+    background-color: #ffffff; /* Warna latar belakang, sesuaikan dengan preferensi Anda */
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+    z-index: 5;
+    border-radius: 50px; /* Menentukan sudut lengkung dari persegi panjang */
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-left: 800px;
+    margin-top: -230px;
+  }
+  .text-container2 {
+    position: absolute;
+    background-color: #ffffff; /* Warna latar belakang, sesuaikan dengan preferensi Anda */
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+    z-index: 5;
+    border-radius: 50px; /* Menentukan sudut lengkung dari persegi panjang */
+    width: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-left: 1230px;
+    margin-top: -170px;
+  }
+  .text-container3 {
+    position: absolute;
+    background-color: #ffffff; /* Warna latar belakang, sesuaikan dengan preferensi Anda */
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+    z-index: 5;
+    border-radius: 50px; /* Menentukan sudut lengkung dari persegi panjang */
+    width: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-left: 870px;
+    margin-top: -50px;
+  }
+
+  h3 {
+    margin: 0; /* Menghapus margin default dari paragraf */
+    color: #333; /* Warna teks, sesuaikan dengan preferensi Anda */
+    text-align: center;
+  }
+}
+section {
+  .txt-popular {
+    position: absolute;
+    margin-top: -366px;
+    margin-left: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    span {
+      display: inline;
+      border-bottom: 4px solid #ff902a;
+    }
+  }
+  .color-brown {
+    background-color: #f9d9aa;
+    position: absolute;
+    width: 100%;
+    margin-top: -150px;
+    height: 300px;
+    border-radius: 50px;
+    z-index: 2;
+  }
+  .color-brown p {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .card {
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 20px 20px;
+    z-index: 5;
+    width: 20%;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: -1000px;
+  }
+
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 10px;
+    font-size: 25px;
+  }
+  .card img {
+    border-radius: 15px;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Warna teks */
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .rectangle {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: -120px;
+    margin-left: -120px;
+  }
+  .rectangle p {
+    text-align: center;
+    color: black;
+  }
+  .star-icon {
+    color: gold;
+    font-size: 24px;
+  }
+  button {
+    margin-top: 20px;
+  }
+  .keranjang {
+    background-color: orangered; /* Warna latar belakang */
+    width: 25px;
+    height: 25px;
+    color: white; /* Warna ikon */
+    border-radius: 65%; /* Membuat latar belakang berbentuk lingkaran */
+    padding: 5px; /* Padding */
+    font-size: 20px; /* Ukuran font */
+    text-align: center;
+    margin-left: 220px;
+    margin-top: -35px;
+    i {
+      margin-left: -3px;
+    }
+  }
+  h2 {
+    margin-top: 150px;
+    font-size: 25px;
+    margin-left: 100px;
+  }
+  h2 span {
+    display: inline;
+    border-bottom: 2px solid gold;
+  }
+  .image-container {
+    display: flex; /* Mengaktifkan tata letak flexbox */
+  }
+
+  .image-container img {
+    height: auto; /* Gambar tetap proporsional */
+    margin-top: 20px;
+    margin-left: 140px;
+  }
+
+  .txt-enjoy {
+    text-align: center; /* Posisi teks di tengah */
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .txt-choose {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+}
+.about {
+  display: inline-block;
+  margin-left: 245px;
+  margin-top: 200px;
+
+  .container img {
+    position: relative;
+    z-index: 4;
+    margin-left: -10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 3px 3px;
+    border-radius: 10px;
+  }
+  .content-right {
+    background-color: #f6ebda;
+    width: 1364px;
+    margin-top: -350px;
+    margin-left: -260px;
+    height: 400px;
+  }
+  .content-right h2 {
+    margin-left: 700px;
+    margin-top: 120px;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+  }
+  .content-right #txt {
+    margin-top: 150px;
+  }
+  .content-right p {
+    position: absolute;
+    z-index: 3;
+    margin-left: 700px;
+    margin-top: 200px;
+  }
+  .btn1 {
+    background-color: #2f2105; /* Warna latar belakang */
+    color: #bb7c06; /* Warna teks */
+    padding: 10px 20px; /* Padding */
+    border-radius: 20px;
+    border: none;
+    margin-left: 700px;
+    margin-top: 280px;
+    
+  }
+
+  .title {
+    margin-left: 700px;
+    margin-top: 70px;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 25px;
+  }
+  .title span {
+    display: inline;
+    border-bottom: 3px solid #fda14a;
+  }
+  .bg img {
+    width: 100%;
+    filter: invert(80%) sepia(57%) saturate(300%) hue-rotate(20deg)
+      brightness(107%) contrast(92%);
+    margin-top: -402px;
+    position: absolute;
+    z-index: 2;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    margin-left: -245px;
+    opacity: 76%;
+  }
+}
+.txt3 {
+  margin-top: 150px;
+  margin-left: -180px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.flex {
+  display: flex;
+  padding: 0;
+  margin-left: -150px;
+}
+.flex .card2 {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px 15px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.flex .card2 img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+  border-radius: 10px;
+}
+.flex .card2-content h2 {
+  position: relative;
+  z-index: 5;
+  font-size: 20px;
+  margin-top: 180px;
+}
+.flex .card2-content p {
+  margin-top: 10px;
+}
+.flex .card2-content h2 span {
+  font-size: 20px;
+}
+.flex .text-overlayy {
+  position: relative;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Warna teks */
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 5;
+  margin-top: 10px;
+}
+.flex .rectanglee {
+  width: 80px;
+  height: 40px;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: -200px;
+  margin-left: -90px;
+}
+.flex .rectanglee p {
+  text-align: center;
+  color: black;
+}
+.flex .star-iconn {
+  color: gold;
+  font-size: 24px;
+}
+.flex .keranjangg {
+  background-color: orangered; /* Warna latar belakang */
+  width: 25px;
+  height: 25px;
+  color: white; /* Warna ikon */
+  border-radius: 65%; /* Membuat latar belakang berbentuk lingkaran */
+  padding: 5px; /* Padding */
+  font-size: 20px; /* Ukuran font */
+  text-align: center;
+  margin-left: 248px;
+  margin-top: -30px;
+} /*# sourceMappingURL=main.css.map */
+.content-last {
+  background-color: #f6ebda;
+  width: 800px;
+  height: 375px;
+  margin-top: 100px;
+  border-radius: 0 20px 20px 0;
+  .text-last {
+    margin-top: 120px;
+  }
+  h2 {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: 30px;
+  }
+  p {
+    position: absolute;
+    z-index: 3;
+    margin-top: 200px;
+    margin-left: 150px;
+  }
+  .bg-last img {
+    width: 90%;
+    filter: invert(80%) sepia(57%) saturate(300%) hue-rotate(20deg)
+      brightness(107%) contrast(92%);
+    margin-top: 5px;
+    position: absolute;
+    z-index: 2;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    margin-left: -415px;
+    opacity: 76%;
+  }
+}
+.image-last {
+  display: flex;
+  position: absolute;
+  margin-left: 465px;
+  margin-top: -320px;
+  img {
+    z-index: 5;
+    width: 200px;
+    height: 250px;
+    padding: 40px;
+  }
+  h3,
+  p {
+    margin-left: 10px;
+  }
+  .txt-naura {
+    position: absolute;
+    z-index: 5;
+    background-color: #ffcb7c;
+    width: 205px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(202, 155, 26, 0.5);
+    margin-left: 75px;
+    margin-top: 170px;
+  }
+  .txt-john {
+    position: absolute;
+    z-index: 5;
+    background-color: #ffcb7c;
+    width: 180px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(202, 155, 26, 0.5);
+    margin-left: 350px;
+    margin-top: 170px;
+  }
+  .txt-azura {
+    position: absolute;
+    z-index: 5;
+    background-color: #ffcb7c;
+    width: 190px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(202, 155, 26, 0.5);
+    margin-left: 630px;
+    margin-top: 170px;
+  }
+}
+.bg-input {
+  img {
+    width: 900px;
+    margin-left: 225px;
+    margin-top: 100px;
+    padding: 0 0 60px 0;
+  }
+  h2 {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    margin-left: 380px;
+    margin-top: -270px;
+  }
+  input {
+    position: absolute;
+    border: solid 1px;
+    border-radius: 50px;
+    width: 425px;
+    padding: 10px;
+    margin-top: 275px;
+    margin-left: -680px;
+  }
+  button {
+    position: absolute;
+    border: none;
+    background-color: #2f2105;
+    color: white;
+    padding: 8px;
+    border-radius: 50px;
+    width: 90px;
+    margin-top: 278px;
+    margin-left: -335px;
+  }
+}
