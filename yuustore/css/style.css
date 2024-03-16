@@ -1,0 +1,395 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+* a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #008dda;
+  width: auto;
+  height: 100px;
+}
+header h1 {
+  padding: 20px;
+  font-size: 35px;
+  margin-left: 40px;
+  color: white;
+}
+header input {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -60px;
+  padding: 8px;
+  width: 750px;
+  border: none;
+  border-radius: 5px;
+}
+header #search {
+  position: absolute;
+  margin-left: 1025px;
+  margin-top: -57px;
+  border-radius: 3px;
+  background-color: #008dda;
+  padding: 5px;
+  width: 25px;
+  text-align: center;
+  color: white;
+}
+header #search:hover {
+  background-color: #41c9e2;
+}
+header #keranjang {
+  position: absolute;
+  color: white;
+  margin-left: 1155px;
+  margin-top: -57px;
+  font-size: 25px;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 1210px;
+  margin-top: -53px;
+}
+header ul li {
+  display: inline;
+  color: #ffffff;
+}
+header li:hover {
+  color: #41c9e2;
+}
+
+.container h1 {
+  font-size: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 60px;
+  margin-top: 140px;
+}
+.container p {
+  margin-top: 10px;
+  margin-left: 63px;
+}
+.container img {
+  position: absolute;
+  width: 500px;
+  margin-left: 720px;
+  margin-top: -390px;
+}
+.container .btn-buy {
+  margin-top: 30px;
+  margin-left: 63px;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  background-color: #008dda;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn-buy:hover {
+  background-color: #41c9e2;
+}
+
+.txt-popular {
+  margin-top: 15%;
+  margin-left: 60px;
+}
+
+.txt-featured {
+  margin-top: 120px;
+  margin-left: 60px;
+}
+
+.content {
+  display: flex;
+  padding: 5px;
+}
+.content a {
+  color: black;
+}
+.content .card {
+  border-radius: 10px;
+  background-color: #ebebeb;
+  width: 320px;
+  text-align: center; /* Pusatkan elemen dalam kartu */
+  margin-left: 12px;
+  margin-top: 50px;
+}
+.content .card:hover {
+  background-color: #c7c7c7;
+}
+.content img {
+  width: 300px;
+  margin: 0 auto; /* Pusatkan gambar secara horizontal */
+  display: block; /* Memastikan gambar berada dalam blok */
+}
+.content .txt-image {
+  margin-top: -50px;
+  padding: 2px 16px;
+}
+.content .txt-image2 {
+  margin-top: 23px;
+  padding: 2px 16px;
+}
+.content .txt-image3 {
+  margin-top: 23px;
+  padding: 2px 16px;
+}
+.content .txt-image4 {
+  margin-top: 23px;
+  padding: 2px 16px;
+}
+.content .txt-image5 {
+  margin-top: 23px;
+  padding: 2px 16px;
+}
+.content p {
+  margin-top: 10px;
+}
+.content .Rp {
+  font-size: 15px;
+  margin-left: -5px;
+  margin-top: 20px;
+}
+.content .Rp span {
+  margin-left: 130px;
+  color: gold;
+}
+
+main {
+  background-color: #008dda;
+  height: 400px;
+  margin-top: 150px;
+}
+main .content-deals-day {
+  position: absolute;
+  color: white;
+}
+main h2 {
+  margin-top: 80px;
+  margin-left: 60px;
+  font-size: 40px;
+}
+main .clock {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+main .image-deals {
+  display: flex;
+  margin-left: 250px;
+}
+main .image-deals a {
+  color: black;
+}
+main .image-deals .card {
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 250px;
+  text-align: center; /* Pusatkan elemen dalam kartu */
+  margin-left: 12px;
+  margin-top: 50px;
+}
+main .image-deals .card:hover {
+  background-color: #c7c7c7;
+}
+main .image-deals img {
+  width: 150px;
+  margin: 0 auto; /* Pusatkan gambar secara horizontal */
+  display: block; /* Memastikan gambar berada dalam blok */
+}
+main .image-deals .txt-image {
+  margin-top: -50px;
+  padding: 2px 16px;
+}
+main .image-deals .txt-image2 {
+  margin-top: 23px;
+  padding: 2px 16px;
+}
+main .image-deals .txt-image3 {
+  margin-top: 23px;
+  padding: 2px 16px;
+}
+main .image-deals .txt-image4 {
+  margin-top: 23px;
+  padding: 2px 16px;
+}
+main .image-deals .txt-image5 {
+  margin-top: 23px;
+  padding: 2px 16px;
+}
+main .image-deals p {
+  margin-top: 10px;
+}
+main .image-deals .Rp {
+  font-size: 15px;
+  margin-left: -5px;
+  margin-top: 20px;
+}
+main .image-deals .Rp span {
+  margin-left: 55px;
+  color: gold;
+}
+
+section .logo-img {
+  display: flex;
+  margin-top: 130px;
+}
+section .logo-img .logo {
+  margin-left: 75px;
+  padding: 80px 50px;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  width: 250px;
+  height: 120px;
+}
+section .logo-img .logo button {
+  margin-left: -150px;
+  cursor: pointer;
+  background-color: #008dda;
+  width: 70px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+section .logo-img .logo .btn-smart {
+  margin-left: -120px;
+}
+section .logo-img .logo button:hover {
+  background-color: #41c9e2;
+}
+section .logo-img .logo img {
+  width: 150px;
+  height: 100px;
+}
+section .logo-img .logo .lg-ps5 {
+  margin-top: -60px;
+  margin-left: -30px;
+}
+section .logo-img .logo .lg-garmin {
+  margin-top: -60px;
+  margin-left: -30px;
+}
+section .logo-img .logo .lg-smart {
+  margin-top: -60px;
+  margin-left: -60px;
+}
+section .img-brand {
+  display: flex;
+}
+section .img-brand .brand img {
+  transition: transform 0.3s ease; /* Efek transisi untuk animasi */
+}
+section .img-brand .brand img:hover {
+  transform: scale(1.1); /* Memperbesar gambar saat dihover */
+}
+section .img-brand img {
+  width: 300px;
+}
+section .img-brand .ps5 {
+  position: absolute;
+  margin-left: 180px;
+  margin-top: -240px;
+}
+section .img-brand .garmin {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -240px;
+}
+section .img-brand .smart {
+  position: absolute;
+  margin-left: 1030px;
+  margin-top: -240px;
+}
+
+footer {
+  background-color: #008dda;
+  margin-top: 250px;
+  height: 250px;
+}
+footer .deks-left {
+  margin-top: 50px;
+  position: absolute;
+  color: white;
+}
+footer .deks-left h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+footer .deks-left .ket {
+  margin-top: 40px;
+  margin-left: 60px;
+}
+footer .sponsor ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 380px;
+  margin-top: -104px;
+}
+footer .sponsor li {
+  display: inline;
+  color: white;
+  padding: 0 160px 0 0;
+}
+footer .sponsor li:hover {
+  color: #41c9e2;
+  transition: 0.3 ease;
+}
+footer .lorem ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 380px;
+  margin-top: 20px;
+}
+footer .lorem li {
+  display: inline;
+  color: white;
+  padding: 0 160px 0 0;
+}
+footer .lorem li:hover {
+  color: #41c9e2;
+}
+footer .lorem2 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 380px;
+  margin-top: 20px;
+}
+footer .lorem2 li {
+  display: inline;
+  color: white;
+  padding: 0 160px 0 0;
+}
+footer .lorem2 li:hover {
+  color: #41c9e2;
+}
+footer .medsos {
+  display: block;
+  margin-left: 1200px;
+  padding: 20px;
+  margin-top: -115px;
+  position: absolute;
+}
+footer .medsos #ig {
+  margin-top: 20px;
+}
+footer .medsos #tw {
+  margin-top: 23px;
+}
+footer .medsos i {
+  color: white;
+}
+footer .medsos i:hover {
+  color: lightblue;
+}/*# sourceMappingURL=style.css.map */
+
